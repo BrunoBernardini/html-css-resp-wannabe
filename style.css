@@ -71,3 +71,38 @@ img {
 .clear {
   clear: both;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 419px) {
+
+  /* GENERALS */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img{
+    height: 100px;
+  }
+
+  /* BLOCCO LEZIONI */
+
+  #lezioni h1{
+    margin-bottom: 25px;
+  }
+
+  #lezioni .row{
+    margin-top: 0;
+    width: 100%;
+    background-color: #f2f2cd;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
